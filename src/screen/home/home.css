@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 420px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.weather-section {
+    padding: 25px 20px;
+}
+
+.topnav input {
+    padding: 12px;
+    width: 270px;
+    border-radius: 20px;
+    background-color: #E6F5FB;
+    border: none;
+    font-size: 18px;
+}
+
+.topnav button {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin-left: 15px;
+    background-color: #E6F5FB;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav .search-img {
+    width: 16px;
+    height: 16px;
+}
+
+.clear-sky-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.clear-sky-heading {
+    text-align: center;
+    margin-top: 0;
+}
+
+.clear-sky-text {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 20px 10px 10px;
+}
+.humidity-section{
+    display: flex;
+}
+.windspeed-section{
+    display: flex;
+}
+.clear-sky-text .humidity-img{
+    width: 30px;
+    height: 38px;
+    margin-right: 10px;
+}
+.clear-sky-text .windspeed-img{
+    width: 30px;
+    height: 38px;
+    margin-right: 10px;
+}
+.clear-sky-text p {
+    margin: 0;
+}
